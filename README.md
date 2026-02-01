@@ -21,14 +21,17 @@ This project is perfect as a **portfolio project** for backend development.
 ```bash
 git clone https://github.com/L4st4ken/Golang-Notes-Management-with-Structured-Directory.git
 cd Golang-Notes-Management-with-Structured-Directory
+```
 
 2. Install dependencies:
 ```bash
 go mod tidy
+```
 
 3. Run the API::
 ```bash
 go run ./cmd/api
+```
 
 ## 📝 API Endpoints
 
