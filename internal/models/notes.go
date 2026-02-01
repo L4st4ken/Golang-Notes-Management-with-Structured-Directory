@@ -1,0 +1,10 @@
+package models
+
+
+type Note struct {
+	ID        int       `json:"id"`
+	Title     string    `json:"title"`
+	Content   string    `json:"content"`
+	CategoryID   int    `json:"category_id"`
+	CategoryName string    `json:"category_name,omitempty"`
+}
